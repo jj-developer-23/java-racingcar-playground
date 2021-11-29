@@ -24,3 +24,12 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
+
+---
+문자열 덧셈 계산기 string calculator
+[x] 빈 문자열 또는 null 값일 경우 0 반환
+[] 숫자 하나를 문자열로 입력할 경우 해당 숫자를 반환
+[x] (,) 쉼표 또는 (:) 콜론을 구분자로 분리한 후 각자의 숫자 합을 반환
+[x] 구분자를 커스텀 할 수 있다. 커스텀 구분자는 문자열 앞에 "//" 와 "\n" 사이에 위치하는 문자를 사용한다.
+[x] 숫자 이와의 값 또는 음수를 전달할 경우 RuntimeException 예외를 throw 한다.
+
